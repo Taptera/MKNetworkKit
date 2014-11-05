@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             =  'MKNetworkKit-Salesforce-Taptera'
-  s.version          =  '0.87.1'
+  s.version          =  '0.87.2'
   s.summary          =  'ARC ready Networking Framework with built in authentication and HTTP 1.1 caching standards support for iOS 5+ devices.'
   s.homepage         =  'https://github.com/MugunthKumar/MKNetworkKit'
   s.author           =  { 'Mugunth Kumar' => 'mugunth@steinlogic.com' }
-  s.source           =  { :git => 'https://github.com/taptera/MKNetworkKit.git', :commit => '446dabfd791593b713ab988c0c3b5349f6776ea3' }
+  s.source           =  { :git => 'https://github.com/taptera/MKNetworkKit.git', :commit => 'aa95d09f613fd15b697242b303a3ac53e44c6829' }
   s.platform        =  :ios, '6.0'
 
   s.source_files     = 'MKNetworkKit/*.{h,m}', 'MKNetworkKit/Categories/*.{h,m}'
